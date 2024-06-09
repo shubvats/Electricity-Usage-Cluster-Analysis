@@ -1,0 +1,45 @@
+Repository Name: "ElectricityUsageClusterAnalysis"
+
+README.md:
+
+---
+
+# Electricity Usage Cluster Analysis
+
+## Author: Shubham Vats
+
+### Date: 11/24/2022
+
+This repository contains code and data for performing cluster analysis on household electricity consumption data. The dataset spans six months from January 2007 to June 2007 and includes attributes such as date, time, global active power, global reactive power, voltage, global intensity, and submetering for different areas of the household.
+
+## Problem Statement
+
+The objective is to use cluster analysis to group houses with similar electricity usage patterns and analyze any patterns or differences formed in them. The analysis aims to identify clusters of houses with similar electricity consumption behavior and understand any deviations from the mean.
+
+## Methodology
+
+The analysis is performed using K-means clustering, an unsupervised learning algorithm. The dataset is divided into clusters based on similarity in electricity usage attributes. Each observation (household) is assigned to the cluster with the closest mean. The clusters are then analyzed to identify patterns and differences in electricity consumption.
+
+## Files
+
+- **Data File**: Contains the household electricity consumption data in CSV format.
+- **Script File**: MATLAB or R script for performing K-means clustering and analyzing the results.
+- **Documentation**: Word document providing a detailed description of the data, methodology, results, and screenshots.
+
+## Instructions
+
+1. Ensure you have MATLAB or R installed on your system.
+2. Download the data file and script file from this repository.
+3. Run the script file in MATLAB or R to perform the cluster analysis.
+4. Refer to the documentation for detailed descriptions and screenshots of the analysis results.
+
+## Results
+
+- Clustering Visualization
+- Analysis of Clusters
+- Interpretation of Results
+
+## Conclusion
+
+The cluster analysis provides insights into household electricity consumption patterns and helps identify houses with similar usage behavior. The results can be used for predictive modeling and energy management strategies.
+
