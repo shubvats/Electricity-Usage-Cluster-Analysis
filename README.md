@@ -1,6 +1,4 @@
-Repository Name: "ElectricityUsageClusterAnalysis"
 
-README.md:
 
 ---
 
